@@ -1,0 +1,211 @@
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #254ceaa7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    background: #254ceaa7;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+
+}
+
+.menu ul li { 
+    list-style: none; 
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.menu ul li a { 
+    text-decoration: none; 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav {
+
+    box-shadow: 0 4px 8px rgba(12, 10, 10, 0.621);
+    border-radius: 30px;
+}
+header h1 {
+    background: #254ceaa7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.432);
+}
+
+nav ul li {
+    background: linear(#254ceaa7);
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #254ceaa7;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #3b5999;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #f4f4f4;
+
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: verdana; 
+}
+.navigasi { 
+    background-color: #254ceaa7;
+    width: 100%; 
+    height: 70px; 
+    color: white(225, 85, 85); 
+    text-align: right;
+} 
+.logo {
+    padding-top: 0,5px; 
+    padding-bottom: 10px; 
+    padding-left: 0,5px;
+
+
+}
+
+.banner {
+    background-color: #254ceaa7;
+    padding-top: 20px;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 2px;
+
+}
+.banner h1 { 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+} 
+.banner button { 
+    margin-top: 60px; 
+    padding: 10px; 
+    width: 400px; 
+    border-radius: 50px; 
+    border: none;
+}
+.banner button { 
+    margin-top: 60px; 
+    padding: 10px; 
+    width: 400px; 
+    border-radius: 50px; 
+    border: none; 
+} 
+.banner button:hover { 
+    background-color: #3b5999; 
+    border:1px solid white; 
+    color: white; 
+}
+h1 span::before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 70px;
+
+}
+@keyframes gerak {
+    0% {
+        content: 'Hallo';
+    }
+    50% {
+        content: 'Bagaimana Kabarmu?';
+    }
+    100% {
+        content: 'Selamat membaca';
+    }
+}
+.Koleksi h1 { 
+    color: #3b5999;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 285px;
+    height: 390px;
+    background-color: #ebf6f9;
+    text-align: center;
+    padding: 30px 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 70px;
+    float: left;
+
+}
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover { 
+    background-color: #254ceaa7; 
+    color: white; 
+}
+.Koleksi h3, p{ 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-top: 10px 20px;
+}
+.box-kontak img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.box-kontak {
+    
+    color: #4d4d4d;
+    margin-top: 500px;
+    text-align: center;
+}
+.footer {
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+
+}
+
